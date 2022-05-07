@@ -1,0 +1,17 @@
+while true do 
+    wait(0.3)
+    local A_1 = 
+    {
+        ["Message"] = "@everyone HiEiIiL_HiliTiLiEiR", --MESSAGE KOKOTE 
+        ["ServerId"] = 1985210499,  --SERVER ID KOKOTE
+        ["Type"] = "SERVER", 
+        ["Files"] = 
+    {
+    }, 
+        ["ChannelId"] = 1985212831, --CHANNEL ID KOKOTE
+        ["ReplyMessageId"] = 0, 
+        ["ThreadId"] = 0
+    }
+    local Event = game:GetService("ReplicatedStorage").Functions.SendMessage
+    Event:FireServer(A_1)
+    end
